@@ -1,0 +1,12 @@
+name: NoFireworkDamage
+version: '1.0'
+main: cf.sslyi.nofireworkdamage.NoFireworkDamage
+api-version: 1.19
+author: [Hydro]
+commands:
+  fireworkdebug:
+    description: Debug anything to the console.
+permissions:
+  nofireworkdamage.debug:
+    default : op
+    description: Permissions to use the debug command.
